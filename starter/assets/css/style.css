@@ -1,31 +1,34 @@
+/* select all selector used to add styling to the entire body */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* body given background color  */
 body {
     background-color: #d9dcd6;
 }
-
+/* header given attributes for asthetics */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* header biggest heading made bigger */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* changes .seo to a whitish color */
 .header h1 .seo {
     color: #d9dcd6;
 }
+/* small image class prevents repeated code for image size */
 .smImg {
     max-height: 200px;
 }
+
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -47,8 +50,6 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
-
-
 
 .hero {
     height: 800px;
@@ -83,6 +84,7 @@ p {
 }
 
 .benefit-styling {
+    height: 310px;
     color: #ffffff;
 }
 .benefit-header h3 {
@@ -94,7 +96,6 @@ p {
         margin: 10px auto;
         max-width: 150px;  
 }
-
 
 .benefits {
     margin-right: 20px;
@@ -130,38 +131,6 @@ p {
 .footer h2 {
     font-size: 20px;
 }
-/* #main-content{
-    width: 100vw;
-    height: 800px;
-}
-/* .gridContainer{
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-areas: 
-    "search-engine-optimization search-engine-optimization search-engine-optimization lead-generation"
-    "online-reputation-management online-reputation-management online-reputation-management brand-awareness"
-    "social-media-marketing social-media-marketing social-media-marketing cost-management"
-    ;
- }
-#search-engine-optimization{
-    grid-area: search-engine-optimization;
-}
-#online-reputation-management{
-    grid-area: online-reputation-management;
-}
-#social-media-marketing{
-    grid-area: social-media-marketing;
-}
-#lead-generation{
-    grid-area: lead-generation;
-}
 
-#brand-awareness{
-    grid-area: brand-awareness;
-}
-#cost-management{
-    grid-area: cost-management;
-}  */
 
 
