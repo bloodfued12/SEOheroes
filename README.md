@@ -14,4 +14,5 @@ Adaptive Mouses, Keyboards, and Alternative Input Methods."
 https://www.accessibility.com/blog/assistive-technology-and-your-website
 
 ## Live development link below:
+![Live development link](/starter/assets/images/Screenshot%202023-12-25%20204530.png)
 https://bloodfued12.github.io/heriseon/starter/index.html
